@@ -1,0 +1,149 @@
+header{
+    background-color: rgb(235, 30, 30);
+    font-family: 'Play', sans-serif;
+    padding-block: 28px;
+    font-size: larger;
+}
+
+.header .text {
+    font: x-large sans-serif;
+}
+
+h1, h2{
+    color: rgb(241, 238, 238);
+}
+
+.header .image {
+    background: url("Imagens/capacete.jpg") no-repeat;
+    width: 60px;
+    height: 50px;
+    background-size: contain;
+}
+
+.header .image, 
+.header .text {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+
+.image media-left{
+    filter: contrast(40%);
+    width: 60px;
+    height: 50px;
+}
+
+.image media-left:hover{
+    filter: brightness(10%);
+}
+
+img{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #d4c7c9;
+    
+}
+
+.img {
+    float: left;
+    width:  400px;
+    height: auto;
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+}
+
+footer {
+    text-align: center;
+    color: darkred;
+    
+}
+
+.toleman{
+    width: 500px;
+    height: 250x;
+    text-align: center;
+    margin-right: 10px;
+    }
+
+.lotus{
+    width: 500px;
+    height: 250x;    
+    text-align: center;
+    margin-right: 10px;
+    
+}
+
+.mclaren{
+    width: 500px;
+    height: 250x;    
+    text-align: center;
+    
+}
+
+.williams{
+    width: 500px;
+    height: 250x;    
+    text-align: center;
+}
+
+
+@media (max-width: 1085px){
+    .column{
+        width: 100%;
+    }
+    .navbar{
+        background-color: rgb(223, 84, 102);
+        filter: grayscale(30%);  
+    }
+    /* essa classe não entrou */
+
+    body{
+        background-color: rgb(223, 84, 102);
+        filter: grayscale(25%);        
+    }
+    .image is-484x48:hover{
+        filter: brightness(70%);
+    }
+    /* Não consigo colocar esse hover de jeito nenhum */
+}
+
+@media (max-width: 768px){
+    .column{
+        width: 100%;
+    }
+    .navbar{
+        background-color: rgb(192, 241, 208);
+        filter: grayscale(30%);  
+    }
+    /* essa classe não entrou */
+
+    body{
+        background-color: rgb(192, 241, 208);
+               
+    }
+    .is-484x48:hover{
+        filter: brightness(70%);
+        filter: blur(10%); 
+    }
+    /* Não consigo colocar o hover */
+}
+
+@media (max-width: 425px){
+    .column{
+        width: 100%;
+    }
+    .navbar{
+        background-color: rgb(199, 186, 181);
+        filter: grayscale(30%);  
+    }
+    /* essa classe não entrou */
+
+    body{
+        background-color: rgb(199, 186, 181);
+        filter: grayscale(30%);        
+    }
+    .image is-484x48:hover{
+        filter: brightness(50%);
+    }
+}
+
+/* Até que consegui colocar algumas coisas no fundo, alguma coisa em grayscale, mas não consigo colocar muita coisa, como pode perceber nos comentários ao longo do código */
